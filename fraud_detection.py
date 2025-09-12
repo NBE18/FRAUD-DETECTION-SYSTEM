@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import joblib as jb
 
-model = joblib.load("fraud_detection_pipeline.pkl")
+model = jb.load("fraud_detection_pipeline.pkl")
 
 st.title("MOMOFRAUD")
 
